@@ -14,6 +14,8 @@
 		374D89731BFB63180091A781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374D89711BFB63180091A781 /* LaunchScreen.storyboard */; };
 		374D897E1BFB63180091A781 /* TestableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D897D1BFB63180091A781 /* TestableTests.swift */; };
 		374D89891BFB63180091A781 /* TestableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89881BFB63180091A781 /* TestableUITests.swift */; };
+		374D89971BFB66AC0091A781 /* TestValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89961BFB66AC0091A781 /* TestValidation.swift */; };
+		374D89991BFB69390091A781 /* TextValidTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89981BFB69390091A781 /* TextValidTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		374D89841BFB63180091A781 /* TestableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374D89881BFB63180091A781 /* TestableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableUITests.swift; sourceTree = "<group>"; };
 		374D898A1BFB63180091A781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374D89961BFB66AC0091A781 /* TestValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestValidation.swift; sourceTree = "<group>"; };
+		374D89981BFB69390091A781 /* TextValidTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				374D896F1BFB63180091A781 /* Assets.xcassets */,
 				374D89711BFB63180091A781 /* LaunchScreen.storyboard */,
 				374D89741BFB63180091A781 /* Info.plist */,
+				374D89961BFB66AC0091A781 /* TestValidation.swift */,
 			);
 			path = Testable;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				374D897D1BFB63180091A781 /* TestableTests.swift */,
 				374D897F1BFB63180091A781 /* Info.plist */,
+				374D89981BFB69390091A781 /* TextValidTest.swift */,
 			);
 			path = TestableTests;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			files = (
 				374D896B1BFB63180091A781 /* ViewController.swift in Sources */,
 				374D89691BFB63180091A781 /* AppDelegate.swift in Sources */,
+				374D89971BFB66AC0091A781 /* TestValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374D897E1BFB63180091A781 /* TestableTests.swift in Sources */,
+				374D89991BFB69390091A781 /* TextValidTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
